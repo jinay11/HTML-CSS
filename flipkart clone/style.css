@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* background-color: black;
+    color: white; */
+    width: 100%;
+}
+
+body{
+    background-color:rgb(235, 233, 233);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.search-box{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    background-color:rgb(235, 233, 233);
+    width: 46%;
+    border-radius: 10px;
+}
+.search-box i{
+    margin-right: 10px;
+}
+.search-box input{
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    background-color: transparent;    
+    text-align: center;
+}
+
+.padding-leftright{
+    padding: 0.01em 20px;
+}
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+ .right{
+    display:flex;
+    gap: 100px;
+} 
+
+.section1{
+    padding: 0.01em 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.m-top{
+    margin-top: 10px;
+}
+.section1 img{
+    width: 100%;
+}
+
+
+/* main section start */
+
+.bg-white{
+    background-color: white;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.main-col{
+    padding: 0.01em 20px;
+    
+    
+}
+
+.incres-p{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.img-text{
+    margin-top: 10px;
+    padding: 2px;
+    text-align: center;
+}
+
+
+/* section 2  start*/
+
+.three-image{
+    padding: 0.01em 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+    padding: 0.01em 20px;
+    font-size: 20px;
+}
+
+.padding-image{
+    padding: 0.01em 20px;
+    margin-top: 20px;
+}
+footer p{
+    background-color: white;
+    padding: 12px 24px;
+}
+
+footer a{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px){
+    .search-box{
+        display: none;
+    }
+
+    nav{
+        font-size:20px;
+    }
+    .right{
+       display: none;
+    }
+
+    .container{
+        flex-wrap:wrap;
+    }
+    .row p{
+        font-size: 10px;
+    }
+   
+    .logo img{
+        width: 50%;
+    }
+    .login{
+        font-size: 20px;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .three-image{
+        grid-template-columns: auto;
+    }
+    .image{
+        height:auto;
+       
+        margin: 10px;
+    }
+    .powerbabk{
+        display: none;
+    }
+}
+
