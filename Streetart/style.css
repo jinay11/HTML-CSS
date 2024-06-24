@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.padding-16 {
+    padding: 0.01em 16px;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0;
+    padding: 0.01em 16px;
+}
+
+/* footer strat */
+
+.content-center {
+    text-align: center;
+}
+
+form p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.text-red {
+    text-align: center;
+    color: #e91e63;
+    font-size: 18px;
+}
+
+.foter-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 20px !important;
+}
+
+.input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.section button {
+    border: none;
+    color: #fff !important;
+    background-color: #616161 !important;
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+footer a {
+    color: #616161;
+    padding-left: 5px;
+}
+
+.p-style {
+    margin: 20px 0;
+}
+
+@media (max-width: 640px) {
+    .row {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 310px) {
+    nav a {
+        font-size: 15px;
+    }
+}
